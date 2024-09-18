@@ -1,0 +1,66 @@
+form{
+    position: fixed;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(17, 17, 17);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+}
+form aside{
+    text-align: center;
+}
+input{
+    margin: 2px;
+    padding: 11px;
+    outline: none;
+    border: none;
+    width: 400px;
+}
+label{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    margin-left:50px;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    border: none;
+    background: rgb(0, 89, 255);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+#caixaDeInfo{
+    background: rgb(19, 19, 19);
+    z-index: 1;
+    padding: 20px;
+    width: 300px;
+    margin: 5px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: aliceblue;
+    border-bottom: 5px solid rgb(141, 0, 0);
+    pointer-events: all;
+    align-self: center;
+    justify-content: center;
+    opacity: 1;
+    transition: .5s;
+}
+.caixa{
+    right: -100px !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+#title{
+    margin: 5px;
+    border-bottom: 2px solid aliceblue;
+}

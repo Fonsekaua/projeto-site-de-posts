@@ -1,0 +1,165 @@
+body{
+    transition: .5s ease-out;
+    overflow: hidden;
+}
+img{
+    width: 240px;
+    height: 310px;
+    cursor: pointer;
+    transition: .5s;
+ }
+ #minhas_imagens{
+     margin: 0 auto;
+     margin-top: 20px;
+     width: 900px;
+     border: none;
+     border: 5px  solid rgb(27, 27, 27);
+     background-color: rgb(27, 27, 27);
+     border-radius: 5px;
+     color: whitesmoke;
+     transition: .5s;
+     
+ }
+ 
+
+ i{
+    font-size: 25px;
+    margin: 5px;
+ }
+ h1{
+     text-align: center;
+ }
+ 
+ #imagens{
+    display: flex;
+    gap: 10px;
+    width: 900px;
+    padding: 10px;
+    transition: .5s;
+   overflow-x: scroll;
+   scrollbar-width: thin;
+  
+}
+#imagem{
+    position: relative;
+}
+ #a{
+   background-color: rgba(0, 0, 0, 0.822); 
+   bottom: 4px;
+   padding: 5px; 
+   position: absolute;
+ }
+ legend{
+     background-color: rgb(0, 102, 255);
+     color: whitesmoke;
+     margin-left: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+.itensNone{
+    display: none;
+}
+ .pagina{
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     pointer-events: none;
+     background: rgba(0, 0, 0, 0.623);
+     z-index: 1;
+ }
+ #post_img{
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     padding: 10px;
+     width: 500px;
+     height: 300px;
+     background-color: rgb(27, 27, 27);
+     color: whitesmoke;
+     opacity: 1;
+     pointer-events: all;
+     transition: .5s;
+     z-index: 2;
+ }
+ .modal{
+     top: 0% !important;
+     opacity: 0 !important; 
+     pointer-events: none !important;
+ 
+ }
+ label,input{
+     display: block;
+     width: 440px;
+     padding: 10px;
+     outline: none;
+ }
+ button{
+     padding: 10px;
+     background-color: rgb(0, 102, 255);
+     border: none;
+     color: whitesmoke;
+     margin-left: 10px;
+     width: 212px;
+     cursor: pointer;
+ }
+ #modalIMG{
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transition: .5s;
+    transform: translate(-50%,-50%); 
+    z-index: 5;
+    pointer-events: all;
+ }
+ #formComentario{
+    display: flex;
+ }
+ #formComentario input{
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+ }
+ #formComentario button {
+    width: 100px;
+    border-radius: 0 10px 10px 0;
+ }
+ #comentarios{
+    display: flex;
+
+    flex-direction: column;
+ }
+ #close{
+    text-align: end;
+    font-size:25px;
+    cursor: pointer;
+ }
+ #imagemMostre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ #areaComentarios{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+ }
+ #areaComentarios span{
+    padding: 30px;
+    background: black;
+    margin: 5px;
+    border-bottom: 3px solid aliceblue;
+    border-radius: 10px 0 10px 0;
+ }
+ #modalIMG div{
+    margin: 5px;
+ }
